@@ -1,0 +1,7 @@
+# Example device list. Copy to switchlist.txt and use real values there (never commit switchlist.txt).
+# Format: ip,login-type,credentials...   (192.0.2.0/24 is a documentation range)
+192.0.2.10,local,LINE_PASSWORD,ENABLE_PASSWORD
+192.0.2.11,local,LINE_PASSWORD,ENABLE_PASSWORD
+192.0.2.20,router,USERNAME,PASSWORD,ENABLE_PASSWORD
+192.0.2.30,radious,USERNAME,PASSWORD
+192.0.2.40,core,USERNAME,PASSWORD

@@ -1,0 +1,20 @@
+# Real device lists contain credentials. Only the example file is committed.
+*.txt
+!switchlist.example.txt
+
+# Collection output (configs, MAC/ARP tables, logs)
+cisco/
+data/
+*.zip
+*.csv
+
+# Build output
+bin/
+*.class
+getinfo.jar
+manifest.txt
+*.bk
+
+# Editor settings
+.vscode/
+.idea/
